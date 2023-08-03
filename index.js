@@ -28,14 +28,24 @@ for (let i = 0; i < arrayNumbers.length; i++) {
 }
 console.log(`The total number of even numbers we have in the array is: ${evenNr}`);
 
+
 // Challenge - 3
 // Use a for loop that logs 'This is Kadahive 10 times'
+// SOLUTION
+const slogan = 'This is Kadahive';
 
+for (let i = 1; i <=10; i++) {
+    console.log(`${slogan} ${i}`);
+}
 
 
 // Challenge - 4
 // Write a program that calculates the area of a rectangle that has a height of 10cm and a breadth of 15cm
-
+//SOLUTION
+const height = 10;
+const breadth = 15;
+const area = height * breadth;
+console.log(`The area of the rectangle with height: ${height} and breadth: ${breadth} is '${area}cm'`);
 
 
 // Challenge - 5
@@ -43,3 +53,7 @@ console.log(`The total number of even numbers we have in the array is: ${evenNr}
 
 let firstNumber = 20
 let secondNumber = 50
+
+if (firstNumber == 20 || secondNumber == 50) {
+    console.log(`${true}`)
+}
