@@ -1,15 +1,32 @@
 // Challenge - 1
 // Use a for loop to calculate the sum of the numbers in the given array.
 let arrayNumbers = [3, 4, 6, 8, 90, 65, 75, 75, 54, 10]
-
+// SOLUTION
+let sum = 0;
+for (let i = 0; i < arrayNumbers.length; i++) {
+    sum = sum + arrayNumbers[i];
+}
+console.log(`The sum of the numbers in the array data structure 'ArrayNumbers' = ${sum}`);
 
 
 // Challenge - 2
 // Use a for loop to determine the numbers of all even numbers in the given array. You can determine if a number is even or odd by using the remainder operator(%)
 // You will need a variable that is zero that increments by one for every even number detected.
 let arrayNumbers = [3, 4, 6, 8, 90, 65, 75, 75, 54, 10]
+// SOLUTION
+let evenNr = 0;
 
+for (let i = 0; i < arrayNumbers.length; i++) {
+    arrayNr = arrayNumbers[i];
 
+    if (arrayNr % 2 == 0) {
+        console.log(`${arrayNr} is an even number`);
+        evenNr = evenNr + 1
+    } else {
+        console.log(`${arrayNr} is an odd number`)
+    }
+}
+console.log(`The total number of even numbers we have in the array is: ${evenNr}`);
 
 // Challenge - 3
 // Use a for loop that logs 'This is Kadahive 10 times'
